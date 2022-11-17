@@ -1,0 +1,17 @@
+.board {
+  margin: 0 auto;
+  background-color: #56d256;
+  width: 700px;
+  height: 700px;
+}
+
+.board-item {
+  background-color: rgb(3, 104, 3);
+}
+
+.board-item.goblin {
+  background-image: url(../static//goblin.png);
+  background-size: cover;
+  background-position: center center;
+  cursor: pointer;
+}
